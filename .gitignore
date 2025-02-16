@@ -1,0 +1,19 @@
+# 忽略 node_modules 目录
+/node_modules/
+/unpackage/
+
+# 忽略编译后的文件目录
+/dist/
+/build/
+
+# 忽略 IDE 配置目录
+/.idea/
+/.vscode/
+.DS_Store
+
+# 忽略锁文件（可选）
+/pnpm-lock.yaml
+
+# 忽略其他可能的临时或系统生成的文件（根据需要添加）
+*.log
+*.tmp

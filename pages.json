@@ -1,0 +1,184 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages 
+		// https://uniapp.dcloud.net.cn/collocation/pages.html#pages
+		// https://uniapp.dcloud.net.cn/collocation/pages.html#style
+		{
+			// 第1位，第一次加载的页面
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app x"
+			}
+		},
+		{
+			"path": "pages/demo1/demo1",
+			"style": {
+				"navigationBarTitleText": "demo页面1"
+			}
+		},
+		{
+			"path": "pages/demo2/demo2",
+			"style": {
+				"navigationBarTitleText": "这是demo2"
+			}
+		},
+		{
+			"path": "pages/scrollview/scrollViewDemo",
+			"style": {
+				"navigationBarTitleText": "scrollview demo"
+			}
+		},
+		{
+			"path": "pages/swiper/swiperDemo",
+			"style": {
+				"navigationBarTitleText": "swiper demo"
+			}
+		},
+		{
+			"path": "pages/bind/bindDemo",
+			"style": {
+				"navigationBarTitleText": "绑定v-bind"
+			}
+		},
+		{
+			"path": "pages/event/eventDemo",
+			"style": {
+				"navigationBarTitleText": "事件event"
+			}
+		},
+		{
+			"path": "pages/condition/conditionDemo",
+			"style": {
+				"navigationBarTitleText": "条件语法v-if"
+			}
+		},
+		{
+			"path": "pages/for/forDemo",
+			"style": {
+				"navigationBarTitleText": "遍历语法v-for"
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "购物车案例"
+			}
+		},
+		{
+			"path": "pages/input/inputDemo",
+			"style": {
+				"navigationBarTitleText": "输入框input"
+			}
+		},
+		{
+			"path": "pages/search/hotSearch",
+			"style": {
+				"navigationBarTitleText": "热搜"
+			}
+		},
+		{
+			"path": "pages/computed/computedDemo",
+			"style": {
+				"navigationBarTitleText": "计算属性computed"
+			}
+		},
+		{
+			"path": "pages/watchDemo/watchDemo",
+			"style": {
+				"navigationBarTitleText": "监听器watch"
+			}
+		},
+		{
+			"path": "pages/component/componentDemo",
+			"style": {
+				"navigationBarTitleText": "组件components"
+			}
+		},
+		{
+			"path": "pages/slots/slotsDemo",
+			"style": {
+				"navigationBarTitleText": "卡槽Slots"
+			}
+		},
+		{
+			"path": "pages/slots/slotsDemo1",
+			"style": {
+				"navigationBarTitleText": "卡槽Slots1"
+			}
+		},
+		{
+			"path": "pages/slots/slotsDemo2",
+			"style": {
+				"navigationBarTitleText": "卡槽Slots2"
+			}
+		},
+		{
+			"path": "pages/lifecycle/vue3Lifecycle",
+			"style": {
+				"navigationBarTitleText": "vue3组件生命周期"
+			}
+		},
+		{
+			"path": "pages/expose/exposeApi",
+			"style": {
+				"navigationBarTitleText": "defineExpose Api"
+			}
+		},
+		{
+			"path": "pages/lifecycle/uniPageLifecycle",
+			"style": {
+				"navigationBarTitleText": "uniapp 页面生命周期"
+			}
+		},
+		{
+			"path": "pages/rpx/rpxDemo",
+			"style": { // 自定义样式
+				"navigationBarBackgroundColor": "#F2E6DE",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "响应式单位rpx"
+			}
+		},
+		{
+			"path": "pages/feedback/feedbackDemo",
+			"style": {
+				"navigationBarTitleText": "交互反馈(toast、loading、dialog等)"
+			}
+		},
+		{
+			"path": "pages/bar/navigationBar",
+			"style": {
+				"navigationBarTitleText": "头部/底部 Bar"
+			}
+		},
+		{
+			"path": "pages/net/netRequest",
+			"style": {
+				"navigationBarTitleText": "网络请求"
+			}
+		},
+		{
+			"path": "pages/cache/cache",
+			"style": {
+				"navigationBarTitleText": "数据缓存"
+			}
+		},
+		{
+			"path": "pages/pet/pet",
+			"style": {
+				"navigationBarTitleText": "宠物案例",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#2B9939",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "咸虾米",
+		"navigationStyle": "default",
+		"backgroundColor": "#ccc",
+		"backgroundTextStyle": "light",
+		"enablePullDownRefresh": false,
+		"onReachBottomDistance": 200
+	},
+
+	"uniIdRouter": {}
+}

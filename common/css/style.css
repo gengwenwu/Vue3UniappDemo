@@ -1,0 +1,14 @@
+view {
+	font-size: 22rpx;
+	box-sizing: border-box;
+	/* background: pink; */
+}
+
+
+button {
+	font-size: 24rpx;
+}
+
+navigator {
+	color: blue
+}
