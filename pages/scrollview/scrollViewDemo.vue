@@ -1,7 +1,7 @@
 <template>
 	<view>---- 滚动条案例 -----</view>
 	<!-- 滚动  -->
-	<scroll-view class="scrollView" direction="horizontal">
+	<scroll-view scroll-y class="scrollView" direction="horizontal">
 		<view class="boxInScrollView">scroll子元素</view>
 		<view class="boxInScrollView">scroll子元素</view>
 		<view class="boxInScrollView">scroll子元素</view>
