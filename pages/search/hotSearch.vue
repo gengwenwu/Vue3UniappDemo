@@ -69,7 +69,7 @@
 				flex-direction: row;
 				padding: 10px 0;
 				border-bottom: 1px solid #e8e8e8;
-				// display: flex;
+				display: flex;
 				justify-content: space-between;
 				align-items: center;
 				font-size: 18px;
@@ -90,7 +90,7 @@
 		}
 
 		.comment {
-			// display: flex;
+			display: flex;
 			margin-top: 10px;
 			flex-direction: row;
 

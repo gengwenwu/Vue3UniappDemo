@@ -1,10 +1,11 @@
 <template>
 	<view>
+		<!-- v-bind 全量写法，官方文档：https://cn.vuejs.org/guide/essentials/template-syntax.html#attribute-bindings -->
 		<image v-bind:src="picUrlDog" mode="aspectFill" />
-		<!-- v-bind 简写，官方文档：https://cn.vuejs.org/guide/essentials/template-syntax.html -->
+		<!-- v-bind 简写 -->
 		<image :src="picUrl" mode="aspectFill" />
 
-		<!-- uniapp组件 bool属性，false 使用 v-bind 才会生效 -->
+		<!-- uniapp组件 bool属性，false 使用 v-bind 才会生效，否则是字符串类型，依旧是true -->
 		<button type="primary" :loading="false" :disabled="false">按钮</button>
 
 		<!-- vue 会把对象中值为true的键添加到class里 -->

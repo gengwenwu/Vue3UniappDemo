@@ -6,8 +6,6 @@
 		<view>全称：{{firstName + "-" + lastName}}</view>
 
 		<view>全称：{{fullName}}</view>
-		<view>全称：{{fullName}}</view>
-		<view>全称：{{fullName}}</view>
 	</view>
 </template>
 

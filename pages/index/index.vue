@@ -19,7 +19,7 @@
 	<text selectable="true" space="emsp">text 文本标签</text>
 
 	<view>---------</view>
-	<scroll-view class="scrollView">
+	<scroll-view scroll-y class="scrollView">
 		<navigator v-for="item in demoPages" :url="item.url" :open-type="item.openType">{{item.text}}</navigator>
 	</scroll-view>
 
@@ -220,7 +220,8 @@
 	}
 
 	.scrollView {
-		// height: 580rpx;
+		 // height: 580rpx;
+		 height: 100%;
 	}
 
 	// .layout {

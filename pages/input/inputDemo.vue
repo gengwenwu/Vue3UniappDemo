@@ -25,7 +25,7 @@
 		console.log(event)
 	}
 
-	// 输入事件
+	// 输入事件，代码逻辑简单，直接写到标签属性里了
 	// function onInput(event) {
 	// 	inputValue.value = event.detail.value
 	// }
@@ -46,17 +46,16 @@
 <style lang="scss" scoped>
 	.out {
 		margin-top: 40px;
-		// padding上下20px，padding左右30px
+		// padding：上下20px，左右30px
 		padding: 20px 30px;
-		// z-index: 只有在 position=relative 才有效果
 		position: relative;
 		// background: yellow;
 
 		input {
 			border: solid 1px #eee;
 			height: 30px;
+			// 相对定位，z-index，只有在 position非static(默认) 才有效果。值越大，显示在越上面
 			position: relative;
-			// z-index值越大，显示在越上面
 			z-index: 2;
 			background: #fff;
 		}
@@ -64,7 +63,7 @@
 		.pic {
 			width: 20px;
 			height: 20px;
-			// 绝对位置
+			// 绝对位置，z-index，只有在 position非static(默认) 才有效果。值越大，显示在越上面
 			position: absolute;
 			z-index: 1;
 			top: 20px;

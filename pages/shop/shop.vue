@@ -64,8 +64,8 @@
 
 		.item {
 			padding: 10px 0; // width: 100%;
-			flex-direction: row;
 			display: flex;
+			flex-direction: row;
 			white-space: nowrap;
 
 			.price {
