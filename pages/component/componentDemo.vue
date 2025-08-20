@@ -22,17 +22,28 @@
 </template>
 
 <script setup>
-	import { ref } from "vue"
+	import {ref} from "vue"
+
 	const name = ref("王五");
 
-	const userInfo = { username: "咸虾米", avatar: "../../static/image_dog.png" };
+	const userInfo = ref({
+		username: "咸虾米",
+		avatar: "../../static/image_dog.png"
+	});
 
-	const userInfos = ref([
-		{ username: "张三", avatar: "../../static/image_dog.png" },
-		{ username: "李四", avatar: "../../static/image_fruit.png" },
-		{ username: "王五", avatar: "../../static/image_old_man.png" },
-	]
-	)
+	const userInfos = ref([{
+			username: "张三",
+			avatar: "../../static/image_dog.png"
+		},
+		{
+			username: "李四",
+			avatar: "../../static/image_fruit.png"
+		},
+		{
+			username: "王五",
+			avatar: "../../static/image_old_man.png"
+		},
+	])
 </script>
 
 <style lang="scss" scoped>

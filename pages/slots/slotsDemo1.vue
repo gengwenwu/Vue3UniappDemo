@@ -9,11 +9,10 @@
 				demo1 头部
 			</template>
 
-			<!-- 通过 #名称 方式，指定具体哪个slot -->
+			<!-- 通过 #名称 方式(简写方式)，指定具体哪个slot -->
 			<template #main>
 				<view class="" v-for="item in 10">每{{item}}行</view>
 			</template>
-
 		</xxm-layout>
 	</view>
 </template>

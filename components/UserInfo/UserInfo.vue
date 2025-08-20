@@ -28,7 +28,7 @@
 	// 	// 仅数据类型
 	// 	// username: String
 
-	// 	// 申明多种属性和默认追
+	// 	// 申明多个属性和默认值
 	// 	username: {
 	// 		type: String,
 	// 		default: "匿名"
