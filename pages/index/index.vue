@@ -173,6 +173,11 @@
 			text: "宠物案例",
 			url: "/pages/pet/pet",
 			openType: "navigate"
+		},
+		{
+			text: "下拉刷新插件z-paging",
+			url: "/pages/z-paging/z-paging",
+			openType: "navigate"
 		}
 	])
 	// 下面是vue2 语法
@@ -220,8 +225,10 @@
 	}
 
 	.scrollView {
-		 // height: 580rpx;
-		 height: 100%;
+		// height: 580rpx;
+		height: 100%;
+		padding-left: 12rpx;
+		padding-bottom: 35rpx;
 	}
 
 	// .layout {

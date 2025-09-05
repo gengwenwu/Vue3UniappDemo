@@ -167,6 +167,12 @@
 				"navigationBarTitleText": "宠物案例",
 				"enablePullDownRefresh": true
 			}
+		},
+		{
+			"path": "pages/z-paging/z-paging",
+			"style": {
+				"navigationBarTitleText": "z-paging"
+			}
 		}
 	],
 	"globalStyle": {
